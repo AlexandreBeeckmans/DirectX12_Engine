@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{74f5133d-0975-4d9a-80dd-20f88c63539b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\pch">
+      <UniqueIdentifier>{736a7a35-c54e-489d-8df1-9a7d5de58a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{a7c9f341-e73f-4559-bd7f-8084a0c6afa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Private">
+      <UniqueIdentifier>{93131fef-f784-4cf4-ac8d-6869d6bd4934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Public">
+      <UniqueIdentifier>{0d4f1546-4017-4176-9856-2f232e6d69b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Classes">
+      <UniqueIdentifier>{17582697-a32b-4b48-b634-d4ea179c7e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine">
+      <UniqueIdentifier>{a150d51b-5f93-4f9d-8429-403ec72bb1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Public">
+      <UniqueIdentifier>{3674b30a-f00e-49e7-a19e-0cc2ef2549ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Private">
+      <UniqueIdentifier>{b39dcbd4-6fd9-4e3b-aa7c-0b2a007c4352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Classes">
+      <UniqueIdentifier>{96e15c96-9d62-4159-93d8-6c4d81ccfc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{82fb9213-6bbb-48ee-8749-261f6dbb760e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform">
+      <UniqueIdentifier>{5fc9039f-db9f-4ea9-ac2c-a31360e4b31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common\Private">
+      <UniqueIdentifier>{97faa551-e32e-47c9-9986-edfb224005e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common\Public">
+      <UniqueIdentifier>{7318cfde-bb89-47a7-b5bd-47a4880caf68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform\Win32">
+      <UniqueIdentifier>{dbdbdb2d-6323-4978-bc1f-0ad0014f34b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform\Win32\Classes">
+      <UniqueIdentifier>{84ffe447-ebb9-43ec-a9bb-ce996b3c8ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform\Win32\Private">
+      <UniqueIdentifier>{cd04104f-e951-45cf-a13b-f8378c7a4b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform\Win32\Public">
+      <UniqueIdentifier>{d9e52fd6-0085-4a24-8e55-de0d83933b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common\Classes">
+      <UniqueIdentifier>{8d6528e3-7bab-47f9-a926-f96329b3ffab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\XEngine.cpp">
+      <Filter>Source\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PerGameSettings.cpp">
+      <Filter>Source\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Core.cpp">
+      <Filter>Source\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\CoreMinimal.cpp">
+      <Filter>Source\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\CoreDefinitions.cpp">
+      <Filter>Source\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\OEngine.cpp">
+      <Filter>Source\Engine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Simulation.cpp">
+      <Filter>Source\Engine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Logger.cpp">
+      <Filter>Source\Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Time.cpp">
+      <Filter>Source\Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\WIN32\IApplication.cpp">
+      <Filter>Source\Platform\Win32\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\CmdLineArgs.cpp">
+      <Filter>Source\Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\SplashScreen.cpp">
+      <Filter>Source\Engine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Win32\Window.cpp">
+      <Filter>Source\Platform\Win32\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Win32\SubObject.cpp">
+      <Filter>Source\Platform\Win32\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Win32\Win32Utils.cpp">
+      <Filter>Source\Platform\Win32\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Win32\w32Caption.cpp">
+      <Filter>Source\Platform\Win32\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\XEngine.h">
+      <Filter>Source\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PerGameSettings.h">
+      <Filter>Source\Core\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Core.h">
+      <Filter>Source\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\CoreMinimal.h">
+      <Filter>Source\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\CoreDefinitions.h">
+      <Filter>Source\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\OEngine.h">
+      <Filter>Source\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Simulation.h">
+      <Filter>Source\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Time.h">
+      <Filter>Source\Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\WIN32\IApplication.h">
+      <Filter>Source\Platform\Win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\WIN32\WinEntry.h">
+      <Filter>Source\Platform\Win32\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\CmdLineArgs.h">
+      <Filter>Source\Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Logger.h">
+      <Filter>Source\Common\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\SplashScreen.h">
+      <Filter>Source\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Win32\SubObject.h">
+      <Filter>Source\Platform\Win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Win32\Window.h">
+      <Filter>Source\Platform\Win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Win32\Win32Utils.h">
+      <Filter>Source\Platform\Win32\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Win32\w32Caption.h">
+      <Filter>Source\Platform\Win32\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
